@@ -366,7 +366,15 @@ width: 440px !important;
     font-family: 'inter-thin' !important;
     font-size: 25px;
 }
-
+.slider-detail button {
+    border: 2px solid #00e0ff !important;
+    background-color: initial !important;
+    color: var(--white-color) !important;
+    width: 150px !important;
+}
+.slider-detail button:hover{
+    border: 2px solid white !important;
+}
 
 @media (max-width:768px){
     .slider-detail{
@@ -383,12 +391,12 @@ width: 440px !important;
 /* slider : end */
 /* our services */
 
-.dd{
+.main-container{
     background-color: var(--second-color);
 }
 
 .ourservices{
-    background-color: var(--second-color);
+    
 }
 .service-item{
     background-color: var(--in-slide-show-color);
@@ -409,23 +417,20 @@ width: 440px !important;
 
 /* end our services */
 .ecosystem-container{
-    /* margin-bottom: 20px !important; */
+    background-color: var(--second-color);
 }
 .Ecosystem{
     text-align: center;
 }
 .ecosystem-item-main{
-    border: 3px solid #1363DF;
-    /* box-shadow: 0 0 15px 3px rgb(204 163 84 / 65%); */
-    /* background-color: #cca354; */
+    border: 3px solid white;
     background-color: initial;
 
     border-radius: 10px;
     transition: all .3s ease-in-out;
 }
 .ecosystem-item-main:hover{
-    border: 3px solid #1363df;
-    box-shadow: 0 0 15px 3px rgb(204 163 84 / 55%);
+    box-shadow: 0 0 15px 3px rgb(4, 232, 248, .5);
 }
 .ecosystem-item-main div h1{
     font-size: 30px;
@@ -438,7 +443,7 @@ width: 440px !important;
 
 .ecosystem-item {
     border-radius: 10px;
-    border: 3px solid #1363df;
+    border: 2px solid #00e0ff;
     color: var(--white-color);
     background-color: initial;
     border-radius: 10px;
