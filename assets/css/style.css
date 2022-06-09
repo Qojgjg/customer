@@ -395,9 +395,9 @@ width: 440px !important;
     background-color: var(--second-color);
 }
 
-.ourservices{
-    
-}
+/* .ourservices{
+    background-color: ;
+} */
 .service-item{
     background-color: var(--in-slide-show-color);
     border-radius: 10px;
